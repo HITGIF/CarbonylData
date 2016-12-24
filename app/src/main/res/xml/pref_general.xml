@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/service_provider_list_titles"
+        android:entryValues="@array/service_provider_list_values"
+        android:key="service_provider_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/service_provider" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_message_code"
+        android:inputType="textCapWords"
+        android:key="message_code_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_message_code" />
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/message_format_list_titles"
+        android:entryValues="@array/message_format_list_values"
+        android:key="message_format_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/message_format" />
+
+</PreferenceScreen>

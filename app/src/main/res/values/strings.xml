@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Carbonyl Data</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_auto_check">Auto-check</string>
+
+    <string name="pref_title_social_recommendations">Enable auto-check</string>
+    <string name="pref_description_social_recommendations">Automatically send checking message to service provider for specific data usage.</string>
+
+    <string name="ac_period">Period</string>
+    <string-array name="ac_period_list_titles">
+        <item>5min</item>
+        <item>15min</item>
+        <item>30min</item>
+        <item>1h</item>
+    </string-array>
+    <string-array name="ac_period_list_values">
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </string-array>
+
+    <string name="service_provider">Service Provider</string>
+    <string-array name="service_provider_list_titles">
+        <item>China Telecom</item>
+    </string-array>
+    <string-array name="service_provider_list_values">
+        <item>0</item>
+    </string-array>
+
+    <string name="message_format">Message Format</string>
+    <string-array name="message_format_list_titles">
+        <item>\n尊敬的用户：截至XX月XX日XX时XX分，您的具体上网流量使用情况如下：\n国内上网流量：总流量XXX MB,其中上月结转流量XXX MB,还剩余XXX MB\n</item>
+        <item>\n尊敬的XXX客户,您好！\n【套餐使用情况】\n1、天翼国内通话时长：总量XXX分钟；剩余量XXX分钟\n2、上月不清零流量/手机上网国内流量：总量XXX MB；剩余量XXX MB\n3、手机上网国内流量：总量XXX MB；剩余量XXX MB\n</item>
+    </string-array>
+    <string-array name="message_format_list_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+
+    <string name="service_started">Service Started</string>
+
+    <string name="pref_title_message_code">Message Code</string>
+    <string name="pref_default_message_code">[Unset]</string>
+
+    <string name="need_setting">Setting Error</string>
+    <string name="need_setting_explain">Please go into "General" to set service provider and message code correctly for checking data usage.</string>
+
+    <string name="ok">OK</string>
+
+    <string name="restart_now">Restart Processes Now?</string>
+    <string name="restart_explain">Some features will only reset after restarting data watching processes.</string>
+
+    <string name="restart">RESTART</string>
+    <string name="nope">NOPE</string>
+
+</resources>
